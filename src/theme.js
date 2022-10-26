@@ -12,8 +12,8 @@ export const theme = createTheme({
       // dark: "#fff",
     },
     text: {
-      main: "#000", 
-      light: "#d2d2d2", 
+      main: "#000",
+      light: "#d2d2d2",
       dark: "#6C757D",
       default: "#fff",
     },
@@ -25,7 +25,7 @@ export const theme = createTheme({
     error: {
       main: "#ff0000", //for text and buttons
       bg: "#ffebeb",
-       //for background and outline
+      //for background and outline
     },
     warning: {
       main: "#e5a200", //for warning text
@@ -38,7 +38,7 @@ export const theme = createTheme({
     },
     active: {
       main: "#56ca00",
-      bg: "#eaf5ea"
+      bg: "#eaf5ea",
     },
     login: {
       main: "#1554f6",
@@ -55,15 +55,15 @@ export const theme = createTheme({
     fontWeightBolder: 800,
     fontWeightBoldest: 900,
     h1: {
-      fontSize: "46px",
+      fontSize: "48pt",
       fontWeight: 400,
-      lineHeight: "50px",
+      lineHeight: "50pt",
       margin: "0 0 0 0",
     },
     h2: {
-      fontSize: "26px",
+      fontSize: "24pt",
       fontWeight: 400,
-      lineHeight: "30px",
+      lineHeight: "26pt",
       margin: "0 0 0 0",
     },
     h3: {
@@ -85,16 +85,16 @@ export const theme = createTheme({
       margin: "0 0 0 0",
     },
     h6: {
-        fontSize: "14px",
-        fontWeight: 400,
-        lineHeight: "28px",
-        margin: "0 0 0 0",
+      fontSize: "14px",
+      fontWeight: 400,
+      lineHeight: "28px",
+      margin: "0 0 0 0",
     },
     h7: {
-        fontSize: "10px",
-        fontWeight: 400,
-        lineHeight: "16px",
-        margin: "0 0 0 0",
+      fontSize: "10px",
+      fontWeight: 400,
+      lineHeight: "16px",
+      margin: "0 0 0 0",
     },
   },
   components: {
@@ -117,7 +117,7 @@ export const theme = createTheme({
       styleOverrides: {
         primary: {
           color: "#544f5a",
-          fontSize: "16px",
+          fontSize: "14pt",
         },
       },
     },
@@ -128,7 +128,8 @@ export const theme = createTheme({
       sm: 600,
       md: 900,
       lg: 1200,
-      xl: 1536,
+      xl: 1500,
+      full: "100%",
     },
   },
 });
