@@ -1,0 +1,41 @@
+//HeadBanner start
+
+title: Digihunt 3.0
+
+
+quote: "Don’t bind yourself within a limit, pull out your guns and face the challenges🏁"
+
+//HeadBannerEnd
+
+//mid section one start
+
+Dont give heading for cards
+//card 1
+About_One: Going off by the phrase,
+✨DJSCE-ACM is back with it's DIGIHUNT 3.0✨📢
+A thrilling Treasure Hunt with a technical twist and an opportunity to win some exciting prizes worth Rs.10,000 🏆💰
+
+//card 2
+About_Two: 🚨Register in a team of 2-3 members for this exciting mission📈and make some unforgettable memories as you get a chance to save millions of lives👨🏻‍⚕️
+
+//card 3
+Venue: 
+	Date: 1st November’22
+	Time: 2 pm onwards
+	Place: 6th Floor, Computer Department
+
+//card 4
+Contact: 
+	Contact Us: Insta post contact details
+
+//mid section one end
+
+//mid section two
+Button
+//mid section two end
+
+//footer start
+logo uploaded - djacm website link
+media handles
+Contact Us: Insta post contact details
+//footer end
