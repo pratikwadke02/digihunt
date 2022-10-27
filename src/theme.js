@@ -12,14 +12,14 @@ export const theme = createTheme({
       // dark: "#fff",
     },
     text: {
-      main: "#000",
+      main: "#22311b",
       light: "#d2d2d2",
       dark: "#6C757D",
       default: "#fff",
     },
     background: {
-      default: "#fff", //for card background
-      main: "#ae1555", //for background
+      default: "#e9e9e9", //for card background
+      main: "#202020", //for background
       light: "#faf6f2",
     },
     error: {

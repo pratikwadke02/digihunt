@@ -1,47 +1,15 @@
-import {
-  Grid,
-  Card,
-  CardContent,
-  Typography,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-} from "@mui/material";
+import { Grid, Card, CardContent } from "@mui/material";
 
-import { Check } from "@mui/icons-material";
-
-const ListIemCustom = ({ itemtext }) => {
-  return (
-    <ListItem>
-      <ListItemIcon>
-        <Check />
-      </ListItemIcon>
-      <ListItemText primary={itemtext} />
-    </ListItem>
-  );
-};
-
-const CardCustom = ({ title, content }) => {
+const CardCustom = ({ children, ...rest }) => {
   return (
     <Grid
+      {...rest}
+      className='card'
       item
       component={Card}
-      sx={{ bgcolor: "background.default" }}
-      minWidth='300px'
-      maxWidth='500px'
-      p='1em'
+      sx={{ bgcolor: "background.default", color: "text.main" }}
       raised>
-      <CardContent>
-        <Typography variant='h2' fontWeight='bold'>
-          {title}
-        </Typography>
-        <List>
-          {content.map((c, i) => (
-            <ListIemCustom key={i} itemtext={c} />
-          ))}
-        </List>
-      </CardContent>
+      <CardContent>{children}</CardContent>
     </Grid>
   );
 };
