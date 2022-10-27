@@ -2,9 +2,6 @@
 
 title: Digihunt 3.0
 
-
-quote: "Don’t bind yourself within a limit, pull out your guns and face the challenges🏁"
-
 //HeadBannerEnd
 
 //mid section one start
@@ -31,6 +28,8 @@ Contact:
 //mid section one end
 
 //mid section two
+quote: "Don’t bind yourself within a limit, pull out your guns and face the challenges🏁"
+
 Button
 //mid section two end
 

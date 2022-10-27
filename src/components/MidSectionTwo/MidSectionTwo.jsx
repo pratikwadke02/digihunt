@@ -1,4 +1,6 @@
 import React from "react";
+import { Typography } from "@mui/material";
+
 import styled from "styled-components";
 
 const Wrapper = styled.section`
@@ -45,18 +47,30 @@ const Wrapper = styled.section`
 
 const MidSectionTwo = () => {
   return (
-    <Wrapper>
-      <section className='register'>
-        <div className='grid grid-two-column'>
-          <div>
-            <h1>Hurry,the registrations are open</h1>
+    <>
+      <Typography
+        variant='h2'
+        color='text.main'
+        align='center'
+        bgcolor='background.default'
+        p='.5em'
+        component='blockquote'>
+        &#10077; Don’t bind yourself within a limit, pull out your guns and face
+        the challenges🏁 &#10078;
+      </Typography>
+      <Wrapper>
+        <section className='register'>
+          <div className='grid grid-two-column'>
+            <div>
+              <h1>Hurry,the registrations are open</h1>
+            </div>
+            <div className='butt'>
+              <button>Register Now!</button>
+            </div>
           </div>
-          <div className='butt'>
-            <button>Register Now!</button>
-          </div>
-        </div>
-      </section>
-    </Wrapper>
+        </section>
+      </Wrapper>
+    </>
   );
 };
 
