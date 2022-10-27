@@ -41,6 +41,19 @@ const Wrapper=styled.section `
     border: none;
     font-size: 16px;
     padding: 12px 70px;
+    background-image: url(background.jpg);
+  }
+  .container  grid grid-three-column{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #90ad70;
+    
+  }
+  .footer-social--icons{
+    display: flex;
+  }
+  .conts{
+    color: black;
   }
 
 `;
@@ -58,19 +71,20 @@ const footer = ()=>{
     <div className="footer-social">
         <h3>Follow Us</h3>
         <div className="footer-social--icons">
-            <div>
-                <FaInstagram className="icons"/>
+            <div className="icons">
+                <FaInstagram/>
             </div>
-            <div>
-                <FaYoutube className="icons"/>
+            <div className="icons">
+                <FaYoutube/>
             </div>
-            <div>
-                <FaLinkedin className="icons"/>
+            <div className="icons">
+                <FaLinkedin/>
             </div>
         </div>
-        <div>
+        <div className="conts">
             <h3>Contact Us</h3>
-            <p>Details...</p>
+            <p>+91 91365 49032</p>
+            <p>+91 98334 47698</p>
         </div>
     </div>
 
