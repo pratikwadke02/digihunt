@@ -113,13 +113,13 @@
 }
 
 .cards {
-  gap: 1em;
+  gap: 2em;
   padding: 2em;
   place-items: center;
 }
 
 .card {
-  --offset: 50%;
+  --offset: 48%;
   display: grid;
   place-items: center;
   max-width: 600px;
@@ -141,13 +141,23 @@
     --offset: 25%;
   }
 }
+
 @media (max-width: 1000px) {
   .card {
     --offset: 10%;
   }
 }
+
 @media (max-width: 800px) {
   .card {
     --offset: 0;
   }
+}
+
+.register-btn {
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+
+  margin: 2em;
 }
