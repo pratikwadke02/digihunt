@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 import {images} from '../../constants'
 import {theme} from '../../theme'
 import { Box, Typography } from "@mui/material";
