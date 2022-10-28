@@ -1,5 +1,6 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import { Typography, Button, Box } from "@mui/material";
+import {images} from '../../constants'
 
 import styled from "styled-components";
 
@@ -48,27 +49,34 @@ const Wrapper = styled.section`
 const MidSectionTwo = () => {
   return (
     <>
+      <Wrapper>
       <Typography
-        variant='h2'
-        color='text.main'
+        variant='h4'
+        color='text.default'
         align='center'
-        bgcolor='background.default'
+        // bgcolor='background.default'
         p='.5em'
         component='blockquote'>
         &#10077; Don’t bind yourself within a limit, pull out your guns and face
         the challenges🏁 &#10078;
       </Typography>
-      <Wrapper>
-        <section className='register'>
-          <div className='grid grid-two-column'>
-            <div>
-              <h1>Hurry,the registrations are open</h1>
-            </div>
-            <div className='butt'>
-              <button>Register Now!</button>
-            </div>
-          </div>
-        </section>
+      <Typography variant="h5" color='text.default' align='center'>Hurry,the registrations are open</Typography>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6y8HAxuqdRmHW9LXKa7XpEWHsWZ7-lIYfRFVtXwlRhU_sug/viewform" style={{textDecoration:'none'}}>
+      <Box
+      sx={{
+        background: `url(${images.background})`,
+        width:'100%',
+        maxWidth:'600px',
+        m:'auto',
+        mt:5,
+        mb:5,
+        borderRadius:'50px',
+        p:5,
+      }}
+      >
+        <Typography variant="h2" color='text.default' align='center' sx={{fontWeight:500}}>REGISTER NOW</Typography>
+      </Box>
+      </a>
       </Wrapper>
     </>
   );
