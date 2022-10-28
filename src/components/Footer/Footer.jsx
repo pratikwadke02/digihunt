@@ -1,10 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import {FaInstagram,FaLinkedin,FaYoutube} from "react-icons/fa";
 import {images} from '../../constants'
 import {theme} from '../../theme'
 import { Box, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LanguageIcon from '@mui/icons-material/Language';

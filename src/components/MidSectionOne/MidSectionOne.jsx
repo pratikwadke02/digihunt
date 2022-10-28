@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Link } from "@mui/material";
+import { Grid, Typography, } from "@mui/material";
 import CardCustom from "../utils/CardCustom";
 
 const MidSectionOne = () => {
